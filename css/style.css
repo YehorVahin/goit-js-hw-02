@@ -1,0 +1,99 @@
+body{
+    max-width: 100%;
+    font-family:"Lora", serif;
+    background-color: rgb(243, 204, 76);
+}
+.d-block{
+    display: block;
+    height: 500px;
+}
+header .container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    max-width: 100%;
+    padding: 0;
+}
+.header{
+    background-color: rgb(228, 190, 65);
+}
+.nav-item{
+    padding-left: 25px;
+}
+.subcategory :hover{
+    background-color: aquamarine;
+}
+.catalog {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+main{
+    max-width: 100%;
+    margin-left: 25%;
+    margin-right: 25%;
+    padding-top: 56px;
+}
+.album .container{
+    display: flex;
+}
+.imagepreview{
+    display: block;
+
+}
+footer{
+    padding: 20px 0;
+    background: rgba(46, 47, 66, 1);
+}
+.footer .massengers{
+    color: rgba(244, 244, 253, 1);
+}
+footer .container{
+    display: flex;
+    max-width: 100%;
+    padding: 0%;
+    margin-left: 25%;
+    margin-right: 25%;
+}
+.info-items{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    list-style-type: none;
+    padding-top: 10px;
+    gap: 30px;
+}
+.album img{
+    display: block;
+    object-fit: cover;
+    height: 250px;
+    margin: 0;
+}
+.card{
+    width: 18rem;
+}
+.insta{
+    list-style-type: none;
+}
+@media (min-width: 992px) {
+    .aside {
+      flex: 0 0 33.333333%;
+      max-width: 33.333333%;
+      order: 1;
+    }
+    .main {
+      flex: 0 0 66.666667%;
+      max-width: 66.666667%;
+      order: 2;
+    }
+   }
+   @media (min-width: 1400px) {
+    .aside {
+      flex: 0 0 25%;
+      max-width: 25%;
+    }
+    .main {
+      flex: 0 0 75%;
+      max-width: 75%;
+    }
+   }
