@@ -1,7 +1,7 @@
 body{
     max-width: 100%;
     font-family:"Lora", serif;
-    background-color: rgb(243, 204, 76);
+    background-color: #FFFFFF;
 }
 .d-block{
     display: block;
@@ -15,7 +15,7 @@ header .container{
     padding: 0;
 }
 .header{
-    background-color: rgb(228, 190, 65);
+    background-color: rgb(255, 255, 255);
 }
 .nav-item{
     padding-left: 25px;
