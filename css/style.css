@@ -12,13 +12,16 @@ body{
     border-bottom: 1px solid #e7e9fc;
 }
 header .container{
-    max-width: 100%;
+    width: 1158px;
     display: flex;
     margin: 0 auto;
     padding: 0 15px;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
+}
+.navbar-brand{
+    margin-right: 76px;
 }
 .nav-item{
     padding-left: 25px;
@@ -36,6 +39,7 @@ main{
     margin-left: 25%;
     margin-right: 25%;
     padding-top: 56px;
+
 }
 .album .container{
     display: flex;
