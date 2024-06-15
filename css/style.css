@@ -12,7 +12,7 @@ body{
     border-bottom: 1px solid #e7e9fc;
 }
 header .container{
-    width: 1158px;
+    max-width: 100%;
     display: flex;
     margin: 0 auto;
     padding: 0 15px;
@@ -35,11 +35,10 @@ header .container{
     margin-top: 20px;
 }
 main{
-    max-width: 100%;
-    margin-left: 25%;
-    margin-right: 25%;
     padding-top: 56px;
-
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 .album .container{
     display: flex;
