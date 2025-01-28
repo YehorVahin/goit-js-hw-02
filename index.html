@@ -1,183 +1,243 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
-    <title>Dora Jewel</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"><!--  -->
+  <title>Массаж Запоріжжя</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=PT+Sans:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/fonts.css">
+  <link rel="stylesheet" href="css/jquery.fancybox.min.css">
+  <link rel="stylesheet" href="css/jquery.formstyler.css">
+  <link rel="stylesheet" href="css/jquery.formstyler.theme.css">
+  <link rel="stylesheet" href="css/slick.css">
+  <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-    <header class="fixed-top"><div class="container header">
-      <nav class="navbar navbar-expand-lg navbar-light">
-        <div class="container-fluid">
-          <a class="navbar-brand" href="index.html">Dora<span>Jewel</span></a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarNavDropdown">
-            <ul class="navbar-nav">
-              <li class="nav-item dropdown">
-                <a class="nav-link" aria-current="page" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown">Каблучки</a>
+  <header class="header">
+    <div class="header-top">
+      <div class="container">
+        <div class="header-content">
+        <div class="header-contacts">
+          <div class="header-phone"><a href="tel:+380111111111">+380111111111</a></div>
+        </div>
+        <div class="menu-top">
+          <nav class="menu" id="menu">
+            <ul class="nav-menu">
+              <li><a href="#services">Послуги</a></li>
+              <li><a href="#slider">Види массажу</a></li>
+              <li><a href="#about-us">Відгуки</a></li>
+              <li><a href="#contacts">Контакти</a></li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+    </div>
+    </div>
+  </header>
+  <section class="slider" id="slider">
+    <div class="container">
+      <div class="slider-inner">
+        <div class="slider-item item">
+          <div class="slider-item-content">
+          <!-- <img src="img/img1.jpg" height="400px" width="600px" alt=""> -->
+          </div>
+        </div>
+        <div class="slider-item item-one">
+          <div class="slider-item-content">
+          <!-- <img src="img/img2.jpg" height="400px" width="600px" alt=""> -->
+          </div>
+        </div>
+        <div class="slider-item item-two">
+          <div class="slider-item-content">
+          <!-- <img src="img/img3.jpg" height="400px" width="600px" alt=""> -->
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="services" id="services">
+    <div class="container">
+      <div class="service-inner">
+        <div class="service-top">
+          <div class="service-title-box">
+            <div class="service-title">Послуги</div>
+            <div class="service-text">
+              Професійний масаж для Вашого здоров’я та релаксу.
+            </div>
+          </div>
+        </div>
+        <div class="service-items">
+        <div class="service-item">
+          <div class="service-title">
+            1. Класичний масаж
+          </div>
+          <div class="service-item-text">
+            Класичний масаж допомагає зняти напругу, покращити кровообіг та відновити баланс тіла, даруючи відчуття повного розслаблення.
+          </div>
+          <div class="service-media">
+            <iframe src="media/video-two.mp4" controls height="200px" width="300px" border-radius="10px"></iframe>
+          </div>
+        </div>
+        <div class="service-item">
+          <div class="service-title">
+            2. Лікувальний масаж
+          </div>
+          <div class="service-item-text">
+            Лікувальний масаж спрямований на зняття болю, покращення функцій м’язів та суглобів, а також відновлення після травм чи фізичних перенапружень
+          </div>
+          <div class="service-media">
+            <iframe src="media/video-three.mp4" controls height="200px" width="300px" border-radius="10px"></iframe>
+          </div>
+        </div>
+        <div class="service-item">
+          <div class="service-title">
+            3. Антицелюлітний масаж
+          </div>
+          <div class="service-item-text">
+            Антицелюлітний масаж стимулює лімфодренаж, покращує тонус шкіри та сприяє розщепленню жирових відкладень для досягнення гладкої та підтягнутої фігури.
+          </div>
+          <div class="service-media">
+            <iframe src="media/video-four.mp4" controls height="200px" width="300px" border-radius="10px"></iframe>
+          </div>
+        </div>
+        <div class="service-item">
+          <div class="service-title">
+            4. Лімфодренажний масаж
+          </div>
+          <div class="service-item-text">
+            Лімфодренажний масаж активізує лімфатичну систему, зменшує набряки та сприяє виведенню токсинів, покращуючи загальне самопочуття та тонус шкіри.
+          </div>
+          <div class="service-media">
+            <iframe src="media/video-five.mp4" controls height="200px" width="300px" border-radius="10px"></iframe>
+          </div>
+        </div>
+        <div class="service-item">
+          <div class="service-title">
+            5. Ароматичний олійний масаж
+          </div>
+          <div class="service-item-text">
+            Ароматичний олійний масаж поєднує ніжні рухи з цілющими властивостями натуральних олій, даруючи глибоке розслаблення, відновлення та гармонію.
+          </div>
+          <div class="service-media">
+            <iframe src="media/video-six.mp4" controls height="200px" width="300px" border-radius="10px"></iframe>
+          </div>
+        </div>
+        <div class="service-item">
+          <div class="service-title">
+            6. Розслабляючий масаж
+          </div>
+          <div class="service-item-text">
+            Розслабляючий масаж знімає стрес і напругу, сприяє повному відновленню сил і гармонії тіла та розуму.
+          </div>
+          <div class="service-media">
+            <iframe src="media/video-one.mp4" controls height="200px" width="300px" border-radius="10px"></iframe>
+          </div>
+        </div>
+      </div>
+      </div>
+    </div>
+  </section>
+  <section class="about-us" id="about-us">
+    <div class="container">
+      <div class="about-us-inner">
+        <div class="about-title">
+          Відгуки
+        </div>
+        <div class="about-slider">
+          <div class="about-slider-inner">
+            <div class="about-slider-item">
+              <div class="about-item-content">
+              <div class="about-slider-image">
+                <img src="img/about-us-one.jpg" alt="">
+              </div>
+              <div class="about-slider-text">
+                "Дуже задоволена послугою масажу! Майстер чудово відчуває напругу в тілі, після сеансу відчувається легкість, релакс і приплив енергії. Обов'язково повернуся ще раз і рекомендую всім, хто цінує якісний догляд за собою!"
+              </div>
+            </div>
+            </div>
+            <div class="about-slider-item">
+              <div class="about-item-content">
+              <div class="about-slider-image">
+                <img src="img/about-us-two.jpg" alt="">
+              </div>
+              <div class="about-slider-text">
+                "Відвідав масаж вперше і залишився в захваті! Майстер працює дуже професійно, враховує всі побажання і створює атмосферу повного розслаблення. Вже після першого сеансу відчув значне покращення самопочуття. Дякую за якісний сервіс!"
+              </div>
+            </div>
+            </div>
+            <div class="about-slider-item">
+              <div class="about-item-content">
+              <div class="about-slider-image">
+                <img src="img/about-us-three.jpg" alt="">
+              </div>
+              <div class="about-slider-text">
+                "Чудовий масаж, який дійсно перевершив усі мої очікування! Після сеансу відчувається легкість у тілі, зникли напруження та дискомфорт у спині. Дуже дякую за турботу і професіоналізм – тепер я ваш постійний клієнт!"
+              </div>
+            </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <footer class="footer">
+    <div class="footer-content">
+      <div class="container">
+        <div class="footer-inner">
+          <div class="footer-info" id="contacts">
+            <div class="footer-title">Професійний масаж для Вашого здоров’я та релаксу</div>
+            <div class="footer-text">
+              Масаж – це ідеальне поєднання турботи про здоров’я, зняття напруги та відновлення енергії.
+            </div>
+            <ul class="footer-list">
+              <li>
+                <a class="footer-phone" href="tel:380931111111"
+                  >+38 (093) 111 11 11</a
+                >
               </li>
-              <li class="nav-item dropdown">
-                <a class="nav-link" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown">Браслети</a>
+              <li>
+                <a class="footer-mail" href="mailto:yehor.vahin@gmail.com">yehor.vahin@gmail.com</a>
               </li>
-              <li class="nav-item dropdown">
-                <a class="nav-link" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown">Сережки</a>
-              </li>
-              <li class="nav-item dropdown">
-                <a class="nav-link" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                  Ланцюжки
-                </a>
-              </li>
-              <li class="nav-item dropdown">
-                <a class="nav-link" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown">Підвіски</a>
-              </li>
-              <li class="nav-item dropdown">
-                <a class="nav-link" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown">Кольє</a>
-              </li>
-              <li class="nav-item dropdown">
-                <a class="nav-link" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown">Хрестики</a>
+              <li>
+                <a class="footer-adress" target="_blank" href="https://maps.app.goo.gl/JFJvwsbUKBoGWftE7"
+                  >Запоріжжя, Леоніда Жаботинського, 15\10</a
+                >
               </li>
             </ul>
           </div>
+          <div class="footer__map">
+            <iframe
+            < src="https://www.google.com/maps/embed?pb=!1m10!1m8!1m3!1d4502.836904890956!2d35.11352083250709!3d47.85116095204137!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sru!2sua!4v1738092207863!5m2!1sru!2sua"  style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
+            ></iframe>
+          </div>
         </div>
-      </nav>
+      </div>
     </div>
-    </header>
-    <main id="main">
-      <section class="first-section">
-        <div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel">
-          <div class="carousel-indicators">
-            <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-            <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
-            <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
-          </div>
-          <div class="carousel-inner">
-          <div class="carousel-item active" data-bs-interval="10000">
-            <img src="img/wed1.jpg" class="d-block w-100" alt="...">
-          </div>
-          <div class="carousel-item" data-bs-interval="2000">
-            <img src="img/wed2.jpg" class="d-block w-100" alt="...">
-          </div>
-          <div class="carousel-item">
-            <img src="img/wed3.jpg" class="d-block w-100" alt="...">
-          </div>
-          </div>
-          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
-          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Попередній</span>
-          </button>
-          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
-          <span class="carousel-control-next-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Наступний</span>
-          </button>
-        </div>
-      </section>
-      <section class="catalog">
-      <div class="album py-5 bg-secondary">
-        <div class="container">
-    
-          <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
-            <div class="col">
-              <div class="card shadow-sm">
-                <img src="img/image1.jpg" alt="" class="imagepreview">
-                <div class="card-body">
-                  <p class="card-text">Тип: <br> Колір металу: <br> Середня вага: <br> Тип каміння: <br> Доступні розміри:</p>
-                </div>
-              </div>
-            </div>
-            <div class="col">
-              <div class="card shadow-sm">
-                  <img src="img/image1.jpg" alt="">
-                <div class="card-body">
-                  <p class="card-text">Тип: <br> Колір металу: <br> Середня вага: <br> Тип каміння: <br> Доступні розміри:</p>
-                </div>
-              </div>
-            </div>
-            <div class="col">
-              <div class="card shadow-sm">
-                <img src="img/image1.jpg" alt="">
-                <div class="card-body">
-                  <p class="card-text">Тип: <br> Колір металу: <br> Середня вага: <br> Тип каміння: <br> Доступні розміри:</p>
-                </div>
-              </div>
-            </div>
-    
-            <div class="col">
-              <div class="card shadow-sm">
-                <img src="img/image2.jpg" alt="" height="225px">
-                <div class="card-body">
-                  <p class="card-text">Тип: <br> Колір металу: <br> Середня вага: <br> Тип каміння: <br> Доступні розміри:</p>
-                </div>
-              </div>
-            </div>
-            <div class="col">
-              <div class="card shadow-sm">
-                <img src="img/image2.jpg" alt="" height="225px">
-                <div class="card-body">
-                  <p class="card-text">Тип: <br> Колір металу: <br> Середня вага: <br> Тип каміння: <br> Доступні розміри:</p>
-                </div>
-              </div>
-            </div>
-            <div class="col">
-              <div class="card shadow-sm">
-                <img src="img/image2.jpg" alt="" height="225px">
-                <div class="card-body">
-                  <p class="card-text">Тип: <br> Колір металу: <br> Середня вага: <br> Тип каміння: <br> Доступні розміри:</p>
-                </div>
-              </div>
-            </div>
-    
-            <div class="col">
-              <div class="card shadow-sm">
-                <img src="img/image3.jpg" alt="" height="225px">
-                <div class="card-body">
-                  <p class="card-text">Тип: <br> Колір металу: <br> Середня вага: <br> Тип каміння: <br> Доступні розміри:</p>
-                </div>
-              </div>
-            </div>
-            <div class="col">
-              <div class="card shadow-sm">
-                <img src="img/image3.jpg" alt="" height="225px">
-                <div class="card-body">
-                  <p class="card-text">Тип: <br> Колір металу: <br> Середня вага: <br> Тип каміння: <br> Доступні розміри:</p>
-                </div>
-              </div>
-            </div>
-            <div class="col">
-              <div class="card shadow-sm">
-                <img src="img/image3.jpg" alt="" height="225px">    
-                <div class="card-body">
-                  <p class="card-text">Тип: <br> Колір металу: <br> Середня вага: <br> Тип каміння: <br> Доступні розміри:</p>
-                </div>
-              </div>
-            </div>
-          </div>
+    <div class="footer-copy">
+      <div class="container">
+        <div class="copy-text">
+          © 2025 Template by Yehor Vahin. Всі права захищені.
         </div>
       </div>
-    </section>
-    </main>
-    <footer id="footer" class="footer">
-      <div class="container footer">
-        <ul class="info-items">
-          
-            
-            <li class="massengers">Контакти: <a href="tel:+38(093)-511-57-85">+38(093)-511-57-85</a></li>
-          
-        <li><a href="https://www.instagram.com/dora.jewel/" class="insta" target="_blank">Instagram: <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-instagram" viewBox="0 0 16 16">
-          <path d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.9 3.9 0 0 0-1.417.923A3.9 3.9 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.9 3.9 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.9 3.9 0 0 0-.923-1.417A3.9 3.9 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599s.453.546.598.92c.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.5 2.5 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.5 2.5 0 0 1-.92-.598 2.5 2.5 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233s.008-2.388.046-3.231c.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92s.546-.453.92-.598c.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92m-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217m0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334"/>
-        </svg></a></li>
-        </ul>
-      </div>
-    </footer>
-    <script src ="http://code.jquery.com/jquery-latest.js"></script>
-    <script>src="C:\Users\Kain\OneDrive\Desktop\DoraJewel\script\script.js"</script>
-      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    </div>
+  </footer>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="js/jquery.fancybox.min.js"></script>
+    <script src="js/slick.min.js"></script>
+    <script src="js/jquery.formstyler.min.js"></script>
+    <script src="js/script.js"></script>
+    <script type="text/javascript">
+      $(document).ready(function(){
+         $("#menu").on("click","a", function (event) {
+             event.preventDefault();
+             var id  = $(this).attr('href'),
+                 top = $(id).offset().top;
+             $('body,html').animate({scrollTop: top}, 1200);
+         });
+     });
+     </script>
 </body>
-<script></script>
 </html>
