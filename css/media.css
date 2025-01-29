@@ -1,0 +1,155 @@
+@media (max-width: 1169px){
+  .service-items{
+    margin-left: 150px;
+    margin-right: 150px;
+  }
+}
+@media (max-width: 1112px){
+  .footer-map{
+    margin-right: 30px;
+  }
+  iframe{
+    height: 184px;
+  }
+}
+@media (max-width: 1099px){
+  .service-items{
+    margin-left: 100px;
+    margin-right: 100px;
+  }
+}
+@media (max-width: 999px){
+  .service-items{
+    margin-left: 70px;
+    margin-right: 70px;
+  }
+}
+@media (max-width: 960px){
+  .service-items{
+    margin-left: 50px;
+    margin-right: 50px;
+  }
+}
+@media (max-width: 890px){
+  .service-items{
+    flex-direction: column;
+    align-items: center;
+    margin: 0 auto;
+  }
+}
+@media (max-width: 792px){
+  .footer-map{
+    margin-right: 30px;
+  }
+  iframe{
+    height: 206px;
+  }
+}
+@media (max-width: 724px){
+  .footer-map{
+    margin-right: 30px;
+  }
+  iframe{
+    height: 238px;
+  }
+}
+@media (max-width: 724px){
+  .footer-map{
+    margin-right: 30px;
+  }
+  iframe{
+    height: 238px;
+  }
+}
+@media (max-width: 677px){
+  .footer-map{
+    margin-right: 30px;
+  }
+  iframe{
+    height: 256px;
+  }
+}
+@media (max-width: 661px){
+  iframe{
+    height: 256px;
+  }
+  .footer-inner{
+    flex-direction: column;
+    gap: 20px ;
+  }
+  .footer-info{
+    max-height: 148px;
+  }
+}
+@media (max-width: 630px) {
+  .copy-text{
+    font-size: 14px ;
+  }
+  .about-slider-text{
+    font-size: 16px ;
+  }
+}
+@media (max-width: 620px){
+  .service-title-box:before{
+    display: none;
+  }
+  .service-title-box{
+    text-align: center;
+    margin: 0 auto;
+    padding: 0;
+  }
+  .header-btn-menu{
+    display: block;
+    color: #fff;
+    font-size: 20px;
+  }
+  .menu ul{
+    display: none;
+    position: absolute;
+    margin-top: 20px;
+    right: 10px;
+    z-index: 50;
+}
+.menu li{
+  display: block;
+  text-align: center;
+}
+.menu li a{
+  color: black;
+}
+.header-content{
+  align-items: center;
+}
+.slider-inner .slick-btn{
+  display: none !important;
+}
+}
+@media (max-width: 500px){
+  .about-slider-item img{
+    height: 300px;
+    width: 200px;
+  }
+  .service-title{
+    font-size: 16px;
+  }
+  .service-text{
+    font-size: 14px;
+  }
+}
+@media (max-width: 500px){
+  .about-slider-image img{
+    height: 150px;
+    width: 100px;
+    float: left;
+  }
+  .about-slider-text{
+    font-size: 12px;
+  }
+  .about-us{
+    max-height: 350px;
+  }
+  .footer-inner{
+    align-items: center;
+    margin: 0 auto;
+  }
+}

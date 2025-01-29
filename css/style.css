@@ -67,6 +67,9 @@ body{
 .nav-menu a{
   color: #fff;
 }
+.header-btn-menu{
+  display: none;
+}
 .slider-inner{
   position: relative;
 }

@@ -14,6 +14,7 @@
   <link rel="stylesheet" href="css/jquery.formstyler.theme.css">
   <link rel="stylesheet" href="css/slick.css">
   <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/media.css">
 </head>
 <body>
   <header class="header">
@@ -25,6 +26,9 @@
         </div>
         <div class="menu-top">
           <nav class="menu" id="menu">
+            <div class="header-btn-menu">
+              <span class="icon-bars"></span>
+            </div>
             <ul class="nav-menu">
               <li><a href="#services">Послуги</a></li>
               <li><a href="#slider">Види массажу</a></li>
@@ -153,9 +157,9 @@
               <div class="about-slider-image">
                 <img src="img/about-us-one.jpg" alt="">
               </div>
-              <div class="about-slider-text">
+              <p class="about-slider-text">
                 "Дуже задоволена послугою масажу! Майстер чудово відчуває напругу в тілі, після сеансу відчувається легкість, релакс і приплив енергії. Обов'язково повернуся ще раз і рекомендую всім, хто цінує якісний догляд за собою!"
-              </div>
+              </p>
             </div>
             </div>
             <div class="about-slider-item">
@@ -163,9 +167,9 @@
               <div class="about-slider-image">
                 <img src="img/about-us-two.jpg" alt="">
               </div>
-              <div class="about-slider-text">
+              <p class="about-slider-text">
                 "Відвідав масаж вперше і залишився в захваті! Майстер працює дуже професійно, враховує всі побажання і створює атмосферу повного розслаблення. Вже після першого сеансу відчув значне покращення самопочуття. Дякую за якісний сервіс!"
-              </div>
+              </p>
             </div>
             </div>
             <div class="about-slider-item">
@@ -173,9 +177,9 @@
               <div class="about-slider-image">
                 <img src="img/about-us-three.jpg" alt="">
               </div>
-              <div class="about-slider-text">
+              <p class="about-slider-text">
                 "Чудовий масаж, який дійсно перевершив усі мої очікування! Після сеансу відчувається легкість у тілі, зникли напруження та дискомфорт у спині. Дуже дякую за турботу і професіоналізм – тепер я ваш постійний клієнт!"
-              </div>
+              </p>
             </div>
             </div>
           </div>
@@ -208,7 +212,7 @@
               </li>
             </ul>
           </div>
-          <div class="footer__map">
+          <div class="footer-map">
             <iframe
             < src="https://www.google.com/maps/embed?pb=!1m10!1m8!1m3!1d4502.836904890956!2d35.11352083250709!3d47.85116095204137!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sru!2sua!4v1738092207863!5m2!1sru!2sua"  style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
             ></iframe>
@@ -228,7 +232,6 @@
     <script src="js/jquery.fancybox.min.js"></script>
     <script src="js/slick.min.js"></script>
     <script src="js/jquery.formstyler.min.js"></script>
-    <script src="js/script.js"></script>
     <script type="text/javascript">
       $(document).ready(function(){
          $("#menu").on("click","a", function (event) {
@@ -239,5 +242,7 @@
          });
      });
      </script>
+    <script src="js/script.js"></script>
+    
 </body>
 </html>
